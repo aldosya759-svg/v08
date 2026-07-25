@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Remix: venom08",
+  "description": "venom08 - Cyber Target Swift Network Protocol 500B",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
