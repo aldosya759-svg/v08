@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .bg-mandiri-blue {
+    background-color: #002B5B;
+  }
+  .text-mandiri-blue {
+    color: #002B5B;
+  }
+  .border-mandiri-blue {
+    border-color: #002B5B;
+  }
+  .bg-mandiri-gold {
+    background-color: #FDB813;
+  }
+  .text-mandiri-gold {
+    color: #FDB813;
+  }
+  .border-mandiri-gold {
+    border-color: #FDB813;
+  }
+  .bg-bento-card {
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+}
+
+@keyframes pulse-subtle {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.85; transform: scale(0.98); }
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 3s infinite ease-in-out;
+}
+
+/* Custom Bento scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(0, 43, 91, 0.5);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(253, 184, 19, 0.35);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(253, 184, 19, 0.7);
+}
+
+
